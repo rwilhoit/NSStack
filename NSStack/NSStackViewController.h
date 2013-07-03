@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "NSStack.h"
 
-@interface NSStackViewController : UIViewController
+@interface NSStackViewController : UIViewController {
+    NSStack *stack;
+}
+
+- (IBAction)pressedTestStack:(id)sender;
+
+@property (nonatomic, retain) NSStack *stack;
 
 @end
