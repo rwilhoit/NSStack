@@ -14,12 +14,12 @@
 
 @property (nonatomic, retain) NSMutableArray *stack;    // The NSMutableArray that acts as the stack
 
-- (int)size;                        // Get size of queue
+- (int)size;                        // Get size of stack
 - (void)printStack;                 // Print stack to logs
 - (void)push:(NSString*)object;     // Push object into stack
-- (void)clearStack;                 // Clears the queue of all objects
+- (void)clearStack;                 // Clears the stack of all objects
 - (id)pop;                          // Pop object off stack
-- (BOOL)isEmpty;                    // Check if queue is empty
+- (BOOL)isEmpty;                    // Check if stack is empty
 
 
 @end
