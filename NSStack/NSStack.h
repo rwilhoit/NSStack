@@ -16,7 +16,7 @@
 
 - (int)size;                        // Get size of stack
 - (void)printStack;                 // Print stack to logs
-- (void)push:(NSString*)object;     // Push object into stack
+- (void)push:(id)object;     // Push object into stack
 - (void)clearStack;                 // Clears the stack of all objects
 - (id)pop;                          // Pop object off stack
 - (BOOL)isEmpty;                    // Check if stack is empty
